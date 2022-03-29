@@ -20,18 +20,14 @@ const test = async () => {
   }
 
   try {
-    result = await firebase
-      .auth()
-      .signInWithEmailAndPassword("martin@washswat.com", "washswat1987");
+    result = await firebase.auth().signInWithEmailAndPassword("id", "pswd");
   } catch (e) {
-    result = await firebase
-      .auth()
-      .createUserWithEmailAndPassword("martin@washswat.com", "washswat1987");
+    result = await firebase.auth().createUserWithEmailAndPassword("id", "pswd");
   }
 
   let response = await firebase
     .database()
-    .ref(`printer/622637758f7870431f26c57f`)
+    .ref(`printer/''`)
     .on("value", (val) => {
       console.log("val", val.val());
     });
