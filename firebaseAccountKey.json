@@ -1,0 +1,24 @@
+{
+  "user": {
+    "apiKey": "AIzaSyB0K1JZjSe3Ug8rWz4q1sPIO9JrzcOuOmY",
+    "authDomain": "what-for-lunch-eed47.firebaseapp.com",
+    "databaseURL": "https://what-for-lunch-eed47-default-rtdb.firebaseio.com",
+    "projectId": "what-for-lunch-eed47",
+    "storageBucket": "what-for-lunch-eed47.appspot.com",
+    "messagingSenderId": "861053584176",
+    "appId": "1:861053584176:web:738cee7a4d7723eee0fef5",
+    "measurementId": "G-HKPDN37JQQ"
+  },
+  "admin": {
+    "type": "service_account",
+    "project_id": "what-for-lunch-eed47",
+    "private_key_id": "06c8f374e96f398f08bf3383b4ab1d7721dfb250",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCO4i37sJAUwklF\nsSsb1uUkGCfH7zCg46fidsdXdFaXUdYprPsrjdFdcBR88AtldkxGl03UB2GfgjL2\netLD1hVNmj8+farT5OoIhuLL/8V4jU8gE2qxFZobbgIL8l5m6wWf7hTrjku2E4vI\nAzAvXuj2F3rQgQ2RYxqdGB+vy74Xv97jjmTI/KbSoGdDDsNCgYkJ69W+W1z8TpL2\nCKQ95KH8GJIfwtdVrun1VHswg/vtOJ3mTMMTYg/WlruyTm+4nsqjzhbru3tAaXR+\n9pJ5b/oEvthh8ZhO/2lAROMAXso8OtweVI9okjT+fzcTWk2urNe8AOmrCKwlE0VJ\nxIIbQqKJAgMBAAECggEAFw1jyNcwL8E2zCEs6NVva7bf+DBdgp+oLu/l8nSpIcnI\nyTmI3nqHfFFAZPXfiNOgs8TmgB5ewDrj2QNw7Lql/jq0GHNy87PblFuazLnr1KrL\nyMuJK5/mGKXTe7TzSRyC8E4bnvN6wJn/s9nb1NC1ujqIjIo9s6avHQhO2HCBL1h+\nLgjk+7MqFrZgi+whg98NHtxiXaqxFPWQORMr79H/vKei1nMu06KaCrmMnMNlf6Np\n+Yu4GrVIuZ9jfQX+EVnhoU4KoVl52vdufXJnN3+WPQjCG+Cn5oZZam+dV6H3GB+b\n8K7kXD74qtLCcHtJcWuRxXxS8JB1Wl+iFH2Sp6yClwKBgQDGm81AezdTjVwI92up\nAl4pPnJX8nML9zhLbjeE2qiRttUEe+d+aUrmKXGWLLqkOvuIZ+Kfayo9Q3a9oEt9\nJcGcf/4Skp+gdMOyabA9sn4YnWXrnSmOslP19eFhjcH13se7uNz6UFSuSHXob/d9\nz7y4mhuVg2v+F0q5X4E3PIOLawKBgQC4LBQ2AAYxY7zvaWm19FeyBORX3jXAODGl\nZSLx6y8ABVxbrXfhQzoThqbB2ieXa4TeRLbG7c31opr/BEi5CfYhb7xPd4D08f3U\nEz5Zef5Rxz/EBHmx0RsREeDdrOHWv2qgdLNAIh9oxDbFHHlkGb9RmZIguFzfYG34\n+QECkZSa2wKBgQCRfYbRarHv8gjuxJlIeOSToBxRUtl2dYb2sunW1/tOqznHDCFc\nGDP3AXslAOVE87RZi4iXMgECWg59ARTru6HmTFjKMEDhYUgOxZ+Gwt/elkcYX8wW\nrYoWDyYouZjRzX5RhS3T7M7r0UcWnBcYQfrE3JfCYkDVJSjnPRBCb4EJuwKBgCzU\nxgKzFM7W+XnJziq1lNdHq5HcDHeC9krNiKkc168InwfN/R1/cNap81PC19pbGNfG\nIDviTT1a3KHxGAa67wgKm+s4KtL1SRVjrcy4Dnk3qET91eW8Afuwv20WlU7h/4GZ\nhry40a59/NsUaFQ+lDy3xkNivXC+l2aArodCisr7AoGALqS5TwPqvcv9jc4rKPfg\nFZF58xvl09I08Wa/AFyD5jt+u6gI95i2DmNkhEqjqGpWFlXGx09SNT6+ifVhFy5Q\n7KyC0iO/JawD+jG424xL3qZEtLEBwyqRB/4/bytLK/Ja08ykKVN8bSeXzQo46fHD\nCShqjX5yQoeg2S+s+IKCSpw=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-2u1qf@what-for-lunch-eed47.iam.gserviceaccount.com",
+    "client_id": "106339690511677342321",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2u1qf%40what-for-lunch-eed47.iam.gserviceaccount.com"
+  }
+}
