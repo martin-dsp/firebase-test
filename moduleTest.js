@@ -1,3 +1,4 @@
 const Firebase = require("./Firebase/user/index");
 
-Firebase.yay();
+const firebaseUser = new Firebase("user");
+// Firebase.getData("test1/test2");

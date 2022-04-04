@@ -5,13 +5,13 @@ const {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } = require("firebase/auth");
-const config = require("../../firebaseAccountKey.json");
+const firebaseKey = require("../../firebaseAccountKey.json");
 // admin
 const firebaseAdmin = require("firebase-admin");
 const { initializeApp: adminInitializeApp } = require("firebase-admin/app");
 
 class FirebaseConfig {
-  constructor() {}
+  constructor(type) {}
 
   initializeApp() {
     throw Error("Have you finished set up for <initializeApp>?");
@@ -35,9 +35,17 @@ class FirebaseConfig {
 }
 
 class UserFirebase extends FirebaseConfig {
-  constructor(userConfig) {
-    this.config = userConfig;
-    this.app;
+  constructor(type) {
+    super(type);
+    console.log(type);
+  }
+
+  async initializeApp() {
+    console.log(this.config);
+    const user = firebase.initializeApp(this.config);
+    const auth = getAuth(user);
+    await this.signIn(auth, "kcs19542001@gmail.com", "ckdtnfkds2");
+    this.app = firebase;
   }
 
   async signIn(auth, email, password) {
@@ -48,11 +56,11 @@ class UserFirebase extends FirebaseConfig {
     }
   }
 
-  async initializeApp() {
-    const user = firebase.initializeApp(this.config);
-    const auth = getAuth(user);
-    this.signIn(auth, "kcs19542001@gmail.com", "ckdtnfkds2");
-    this.app = firebase;
+  async getData(ref) {
+    const result = await this.app
+      .database()
+      .ref(ref)
+      .on("value", (val) => console.log(val.val()));
   }
 }
 
